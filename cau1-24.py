@@ -40,13 +40,13 @@ print(d)
 # strObj.getstring()
 # strObj.print_string()
 
-#Câu 6 :
-# x=int(input("Nhập số : "))
-# def square(num) :
-#     return num **2 
-# print(square(2))
-# print(square(3))
-# print(square(x))
+Câu 6 :
+x=int(input("Nhập số : "))
+def square(num) :
+    return num **2 
+print(square(2))
+print(square(3))
+print(square(x))
   
 # câu 7
 # print (abs.__doc__)
