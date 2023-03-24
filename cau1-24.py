@@ -92,10 +92,10 @@ print("%s name %s" &(Person.name,nico.name))
 #         multilist[row][col]=row*col
 # print(multilist)
 
-# câu 11
-# items=[x for x in input("Nhập vào một chuỗi").split(',')]
-# items.sort()
-# print(','.join(items))
+câu 11
+items=[x for x in input("Nhập vào một chuỗi").split(',')]
+items.sort()
+print(','.join(items))
 
 # Câu 12
 # lines=[]
