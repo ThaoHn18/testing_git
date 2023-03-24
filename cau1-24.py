@@ -82,15 +82,15 @@
 # print(','.join(value))
 
 # Câu 10
-# input_str = input("Nhập x,y :")
-# dimensisons=[int(x) for x in input_str.split(',')]
-# rownum=dimensisons[0]
-# colnum=dimensisons[1]
-# multilist=[[0 for col in range(colnum)]for row in range(rownum)]
-# for row in range(rownum) :
-#     for col in range (colnum):
-#         multilist[row][col]=row*col
-# print(multilist)
+input_str = input("Nhập x,y :")
+dimensisons=[int(x) for x in input_str.split(',')]
+rownum=dimensisons[0]
+colnum=dimensisons[1]
+multilist=[[0 for col in range(colnum)]for row in range(rownum)]
+for row in range(rownum) :
+    for col in range (colnum):
+        multilist[row][col]=row*col
+print(multilist)
 
 # câu 11
 # items=[x for x in input("Nhập vào một chuỗi").split(',')]
