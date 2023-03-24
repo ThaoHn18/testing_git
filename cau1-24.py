@@ -168,8 +168,8 @@ print(','.join(items))
 # print("Tổng cần tính: ",n1+n2+n3+n4)
 
 # Câu 19
-# number=[x for x in input("Nhập sã số của bạn").split(',') if int(x)%2!=0]
-# print(','.join(number))
+number=[x for x in input("Nhập sã số của bạn").split(',') if int(x)%2!=0]
+print(','.join(number))
 
 # Câu 20
 # import sys 
