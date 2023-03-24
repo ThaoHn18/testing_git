@@ -14,12 +14,12 @@ def fact(x) :
         return(x*fact(x-1))
 print(fact(x))
 
-# Câu 3
-# n=int(input("Nhập n :"))
-# d= dict()
-# for i in range(1,n+1) :
-#     d[i]= i*i
-# print(d)
+Câu 3
+n=int(input("Nhập n :"))
+d= dict()
+for i in range(1,n+1) :
+    d[i]= i*i
+print(d)
 
 #cau 4
 # values=input("Nhập giá trị : ")
