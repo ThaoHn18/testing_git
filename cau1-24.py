@@ -5,14 +5,14 @@
 #         j.append(str(i))
 # print(','.join(j))
 
-#cau 2
-# x= int(input("Nhập x :"))
-# def fact(x) :
-#     if x==0 :
-#         return 1
-#     else :
-#         return(x*fact(x-1))
-# print(fact(x))
+cau 2
+x= int(input("Nhập x :"))
+def fact(x) :
+    if x==0 :
+        return 1
+    else :
+        return(x*fact(x-1))
+print(fact(x))
 
 # Câu 3
 # n=int(input("Nhập n :"))
