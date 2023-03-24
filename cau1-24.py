@@ -59,16 +59,16 @@ print(square(x))
 #     return num**2
 # print(square.__doc__)
 
-# câu 8
-# class Person :
-#     name ="Person"
-#     def __init__(self,name =None) :
-#         self.name=name
-# jeffrey= Person("Jeffrey")
-# print("%s name %s" & (Person.name,jeffrey.name))
-# nico=Person()
-# nico.name="Nico"
-# print("%s name %s" &(Person.name,nico.name))
+câu 8
+class Person :
+    name ="Person"
+    def __init__(self,name =None) :
+        self.name=name
+jeffrey= Person("Jeffrey")
+print("%s name %s" & (Person.name,jeffrey.name))
+nico=Person()
+nico.name="Nico"
+print("%s name %s" &(Person.name,nico.name))
 
 
 # Câu 9
