@@ -115,13 +115,13 @@
 # print(" ".join(sorted(list(set(worlds)))))
 
 # Câu 14
-# values=[]
-# items=[x for x in input("Nhập các số nhị phân :").split(',')]
-# for p in items :
-#     intp=int(p,2)
-#     if not intp%5 :
-#         values.append(p)
-# print(','.join(values))
+values=[]
+items=[x for x in input("Nhập các số nhị phân :").split(',')]
+for p in items :
+    intp=int(p,2)
+    if not intp%5 :
+        values.append(p)
+print(','.join(values))
 
 # Câu 15 
 # values=[]
