@@ -110,8 +110,8 @@ for sentence in lines :
 
 
 # Câu 13
-s= input("Nhập chuỗi của bạn : ")
-worlds=[word for word in s.split(" ")]
+# s= input("Nhập chuỗi của bạn : ")
+# worlds=[word for word in s.split(" ")]
 # print(" ".join(sorted(list(set(worlds)))))
 
 # Câu 14
