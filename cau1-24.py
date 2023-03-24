@@ -146,17 +146,17 @@
 
 # Câu 17
 
-# s=input("Nhập câu của bạn")
-# d={"upper case":0,"lower case":0}
-# for c in s :
-#     if c.isupper():
-#         d["upper case"]+=1
-#     elif c.islower():
-#         d["lower case"]+=1
-#     else :
-#         pass
-# print("Chữ hoa là",d["upper case"])
-# print("Chữ thường là",d["lower case"])
+s=input("Nhập câu của bạn")
+d={"upper case":0,"lower case":0}
+for c in s :
+    if c.isupper():
+        d["upper case"]+=1
+    elif c.islower():
+        d["lower case"]+=1
+    else :
+        pass
+print("Chữ hoa là",d["upper case"])
+print("Chữ thường là",d["lower case"])
 
 # Câu 18
 
